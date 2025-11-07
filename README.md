@@ -8,9 +8,9 @@ https://plakshauniversity1-my.sharepoint.com/personal/subham_jalan_plaksha_edu_i
      cd MyBot
 
    2. **Copy these 3 files:**
-   •  MyBot.cpp (from /Users/sher/project/othello/Desdemona/bots/MyBot/MyBot.cpp)
-   •  MyBot.h (from /Users/sher/project/othello/Desdemona/bots/MyBot/MyBot.h)
-   •  Makefile (from /Users/sher/project/othello/Desdemona/bots/MyBot/Makefile)
+   •  MyBot.cpp 
+   •  MyBot.h 
+   •  Makefile 
 
    3. **Build the framework first (from Desdemona root):**
 
