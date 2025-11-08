@@ -471,7 +471,6 @@ Move rootSearch(const OthelloBoard& board, Turn turn, int maxDepth) {
     // Order moves initially
     moves = orderMoves(moves, board, turn);
     Move bestMove = moves.front();
-    int bestScore = -INF;
     
     // Iterative deepening
     for (int depth = 2; depth <= maxDepth; depth += 2) {
@@ -502,7 +501,6 @@ Move rootSearch(const OthelloBoard& board, Turn turn, int maxDepth) {
         // Update best move if iteration completed
         if (!isTimeUp()) {
             bestMove = iterBest;
-            bestScore = iterScore;
             
             // Move best to front for next iteration
             moves.remove(iterBest);
